@@ -1,0 +1,70 @@
+{
+    "rules": [
+        {
+            "rule-type": "selection",
+            "rule-id": 1,
+            "rule-name": "table1_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": 2,
+            "rule-name": "table2_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": 3,
+            "rule-name": "table3_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table3"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": 4,
+            "rule-name": "table4_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table4"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": 5,
+            "rule-name": "table5_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table5"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": 6,
+            "rule-name": "table6_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table6"
+            },
+            "rule-action": "include",
+            "filters": []
+        }
+    ]
+}

@@ -1,0 +1,317 @@
+{
+    "rules": [
+        {
+            "rule-type": "selection",
+            "rule-id": 1,
+            "rule-name": "table1_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "11",
+            "rule-name": "table1_column1_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1",
+                "column-name": "column1"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "12",
+            "rule-name": "table1_column2_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1",
+                "column-name": "column2"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "13",
+            "rule-name": "table1_column3_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1",
+                "column-name": "column3"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "14",
+            "rule-name": "table1_column4_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1",
+                "column-name": "column4"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "15",
+            "rule-name": "table1_column5_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1",
+                "column-name": "column5"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "16",
+            "rule-name": "table1_column6_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1",
+                "column-name": "column6"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "17",
+            "rule-name": "table1_column7_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table1",
+                "column-name": "column7"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": 2,
+            "rule-name": "table2_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "21",
+            "rule-name": "table2_column1_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2",
+                "column-name": "column1"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "22",
+            "rule-name": "table2_column2_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2",
+                "column-name": "column2"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "23",
+            "rule-name": "table2_column3_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2",
+                "column-name": "column3"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "24",
+            "rule-name": "table2_column4_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2",
+                "column-name": "column4"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "25",
+            "rule-name": "table2_column5_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2",
+                "column-name": "column5"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "26",
+            "rule-name": "table2_column6_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2",
+                "column-name": "column6"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "27",
+            "rule-name": "table2_column7_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2",
+                "column-name": "column7"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "28",
+            "rule-name": "table2_column8_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table2",
+                "column-name": "column8"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "selection",
+            "rule-id": 3,
+            "rule-name": "table3_selector",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table3"
+            },
+            "rule-action": "include",
+            "filters": []
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "31",
+            "rule-name": "table3_column1_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table3",
+                "column-name": "column1"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "32",
+            "rule-name": "table3_column2_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table3",
+                "column-name": "column2"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "33",
+            "rule-name": "table3_column3_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table3",
+                "column-name": "column3"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "34",
+            "rule-name": "table3_column4_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table3",
+                "column-name": "column4"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        },
+        {
+            "rule-type": "transformation",
+            "rule-id": "35",
+            "rule-name": "table3_column5_transformation",
+            "rule-target": "column",
+            "object-locator": {
+                "schema-name": "production",
+                "table-name": "table3",
+                "column-name": "column5"
+            },
+            "rule-action": "include-column",
+            "value": "null",
+            "old-value": "null"
+        }
+    ]
+}
